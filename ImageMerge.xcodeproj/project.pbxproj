@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A056F0EA1F6AF4580094A70A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056F0E91F6AF4580094A70A /* main.swift */; };
+		A056F0F31F6AFCDD0094A70A /* nfl2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A056F0F01F6AF4E00094A70A /* nfl2.png */; };
+		A056F0F41F6AFCDD0094A70A /* nfl1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A056F0F11F6AF4E00094A70A /* nfl1.png */; };
+		A056F0F61F6B03EA0094A70A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056F0F51F6B03EA0094A70A /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +23,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A056F0F21F6AFCD30094A70A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				A056F0F31F6AFCDD0094A70A /* nfl2.png in CopyFiles */,
+				A056F0F41F6AFCDD0094A70A /* nfl1.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A056F0E61F6AF4580094A70A /* ImageMerge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageMerge; sourceTree = BUILT_PRODUCTS_DIR; };
 		A056F0E91F6AF4580094A70A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A056F0F01F6AF4E00094A70A /* nfl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl2.png; sourceTree = "<group>"; };
+		A056F0F11F6AF4E00094A70A /* nfl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl1.png; sourceTree = "<group>"; };
+		A056F0F51F6B03EA0094A70A /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +74,10 @@
 		A056F0E81F6AF4580094A70A /* ImageMerge */ = {
 			isa = PBXGroup;
 			children = (
+				A056F0F01F6AF4E00094A70A /* nfl2.png */,
+				A056F0F11F6AF4E00094A70A /* nfl1.png */,
 				A056F0E91F6AF4580094A70A /* main.swift */,
+				A056F0F51F6B03EA0094A70A /* Images.swift */,
 			);
 			path = ImageMerge;
 			sourceTree = "<group>";
@@ -72,6 +92,7 @@
 				A056F0E21F6AF4580094A70A /* Sources */,
 				A056F0E31F6AF4580094A70A /* Frameworks */,
 				A056F0E41F6AF4580094A70A /* CopyFiles */,
+				A056F0F21F6AFCD30094A70A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -121,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A056F0EA1F6AF4580094A70A /* main.swift in Sources */,
+				A056F0F61F6B03EA0094A70A /* Images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
